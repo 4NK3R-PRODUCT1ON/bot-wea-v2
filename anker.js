@@ -2577,8 +2577,9 @@ async function starts() {
 					await limitAdd(sender) 
 					break 
 				case prefix+'bott':
+				case prefix+'public':
+				case prefix+'publik':
 					if (isBanned) return reply(mess.only.benned)    
-					if (!isUser) return reply(mess.only.userB)
 					if (!isOwner) return reply(mess.only.ownerB)
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
