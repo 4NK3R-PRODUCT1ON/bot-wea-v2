@@ -1,4 +1,4 @@
-### I'm FXC7BOT Gift Me Stars 🌟 
+### I'm DimS Gift Me Stars 🌟 
 
 ## Tools
 
