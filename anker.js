@@ -601,19 +601,19 @@ async function starts() {
 					await limitAdd(sender) 
 					break
 				case prefix+'iri':
-                const iir = fs.readFileSync('./lib/iri.mp3')
+                const iir = fs.readFileSync('./mp3/iri.mp3')
                 dms.sendMessage(from, iir, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                 break
                 case prefix+'tapi':
-                const iirr = fs.readFileSync('./lib/tapi.mp3')
+                const iirr = fs.readFileSync('./mp3/tapi.mp3')
                 dms.sendMessage(from, iirr, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                 break
                 case prefix+'bernyanyi':
-                const iirrr = fs.readFileSync('./lib/bernyanyi.mp3')
+                const iirrr = fs.readFileSync('./mp3/bernyanyi.mp3')
                 dms.sendMessage(from, iirrr, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                 break
                 case prefix+'anjay':
-                const iirt = fs.readFileSync('./lib/anjay.mp3')
+                const iirt = fs.readFileSync('./mp3/anjay.mp3')
                 dms.sendMessage(from, iirt, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                 break
 				case prefix+'gifstiker':
